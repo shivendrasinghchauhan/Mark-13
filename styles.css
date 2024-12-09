@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Home Page */
+.text-center img {
+    border-radius: 50%;
+    border: 5px solid #007bff;
+}
+
+.text-center h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.text-center p.lead {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Projects Page */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Skills Page */
+.list-group-item {
+    font-size: 1.2rem;
+}
+
+/* Contact Page */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+}
